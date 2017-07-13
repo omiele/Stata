@@ -1,5 +1,5 @@
 **IPAQ- INTERNATIONAL PHYSICAL ACTIVITY QUESTIONEER
-import excel "C:\Users\Home\Documents\Assigns\AP\MAY\kelly\7 IPAQ.xlsx", sheet("7 IPAQ") firstrow
+import excel "C:\Users\Home\Documents\Assigns\7 IPAQ.xlsx", sheet("7 IPAQ") firstrow
 ** Qstn 1: On how many days did you perform the activities?
 *input vig_days
 if Q1 == "No vigorous physical activities" {
@@ -119,7 +119,7 @@ gen partIds = _n
  
 
 **DIETARY QUESTIONEER
-import excel "C:\Users\Home\Documents\Assigns\AP\MAY\kelly\sample dietary2(1).xlsx", sheet("Sheet1") firstrow
+import excel "C:\Users\Home\Documents\Assigns\sample dietary2(1).xlsx", sheet("Sheet1") firstrow
 ** Qstn 8: How old are you?
 gen age=Howoldareyou
 ** Qstn 9: Are you male or female?
