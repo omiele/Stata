@@ -1,4 +1,5 @@
 **IPAQ- INTERNATIONAL PHYSICAL ACTIVITY QUESTIONEER
+** Get this dataset for physical activity from https://www.dropbox.com/s/wkkqdiv9sbuzo9w/7%20IPAQ.xlsx?dl=0
 import excel "C:\Users\Home\Documents\Assigns\7 IPAQ.xlsx", sheet("7 IPAQ") firstrow
 ** Qstn 1: On how many days did you perform the activities?
 *input vig_days
@@ -119,6 +120,7 @@ gen partIds = _n
  
 
 **DIETARY QUESTIONEER
+*** Get the diet dataset from https://www.dropbox.com/s/x07aau6q0isq7x1/sample%20dietary2%281%29.xlsx?dl=0
 import excel "C:\Users\Home\Documents\Assigns\sample dietary2(1).xlsx", sheet("Sheet1") firstrow
 ** Qstn 8: How old are you?
 gen age=Howoldareyou
