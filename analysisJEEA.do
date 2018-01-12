@@ -1,3 +1,6 @@
+** Analysis on the effect of wage rate and incentives on workers. The data for this analysis can be obtained from the link 
+** https://www.dropbox.com/s/gbn4vi5idne36z6/datasetJEEA.dta?dl=0
+
 clear
 set mem 20m
 set more off
