@@ -1,5 +1,10 @@
+** Code for comparing two access databases within stata and displaying any error that may appear together with 
+** merging the datasets to remove duplication.
+
+** Link to access files: https://www.dropbox.com/sh/wh5xttpx4ajvtqp/AAC5Ypr8CwI-kRRYp9FLPm4ra?dl=0
+
 * setting up the working directory, starting log
-cd "C:\Users\Home\Documents\Assigns\AE\Aug\Kelly_NEW ASGIN\Data Entry 1.accdb" 
+cd "C:\Users\Home\Documents\Assigns\Data Entry 1.accdb" 
 set more off  // lets the program run all commands without interumptions
 log using output.log
 
