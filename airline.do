@@ -1,3 +1,9 @@
+** This is a stata analysis of airline data which seeked to find out the trend for bookings done within a given airline and
+* trend for the given transctions within the booking portal. The data can be obtained from 
+* https://www.dropbox.com/s/6yzk7szzqppuhrg/airline3_data_updated_analysis_JOYCEE.dta?dl=0
+
+
+
 
 ** DATA PREPARATION
 destring selected_fare, replace force ignore(" ")
